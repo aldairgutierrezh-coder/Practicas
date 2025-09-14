@@ -24,13 +24,13 @@ int main() {
                 max_men=numero;primeraVez=false;
             }
             else if (max_men>numero) {
-                    if (primeraVezdesegundo||numero>second_maxmen) {
-                        second_maxmen=numero;
-                        primeraVezdesegundo=false;
-                    }
+                if (primeraVezdesegundo||numero>second_maxmen) {
+                    second_maxmen=numero;
+                    primeraVezdesegundo=false;
                 }
+            }
         }
     }
     cout<<"el segundo mayor es :  "<<second_maxmen<<endl;
-    return 0;
+    return 0;//asdasdasdasdasd
 }
